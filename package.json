@@ -1,0 +1,20 @@
+{
+  "name": "websocket-chat-demo-original",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Transcription of the chat app code shown in the user's screenshots",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "aman": "NAME=Aman MODE=stream node client.js",
+    "rahul": "NAME=Rahul MODE=stream node client.js",
+    "aman:poll": "NAME=Aman MODE=poll node client.js",
+    "rahul:poll": "NAME=Rahul MODE=poll node client.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "express-ws": "^5.0.2",
+    "ws": "^8.18.0"
+  }
+}
